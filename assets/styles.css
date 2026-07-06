@@ -639,7 +639,7 @@ textarea.field {
 }
 
 .footer-col-brand {
-  max-width: 50%;
+  max-width: 100%;
 }
 
 .footer-brand {
@@ -785,6 +785,11 @@ textarea.field {
   .footer-brand {
     justify-content: center;
   }
+
+  .footer-col-brand p {
+  max-width: 60%;
+  margin: auto;  
+}
 
   .footer-bottom {
     text-align: center;
